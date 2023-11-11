@@ -61,7 +61,7 @@ def dis_score():
     fa=pygame.font.Font('freesansbold.ttf',20)
     d.blit(fa.render("You have "+str(left)+" chances",True,(128,0,128)),(300,7))#only use +(concatination)
     aa=pygame.font.Font('freesansbold.ttf',15)
-    d.blit(aa.render("Creater:RPD_Gaming",True,(255,255,255)),(340,380))
+    d.blit(aa.render("Creater:Team GladiQ",True,(255,255,255)),(340,380))
 def dif_sqspeed():
     global score,Y_C
     if score>=0 and score<5:
